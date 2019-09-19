@@ -9,14 +9,14 @@
     <meta name="theme-color" content="#333">
     <title>Document</title>
     <link rel="manifest" href="manifest/manifest.json">
-    <link rel="apple-touch-icon" href="/assets/icons/Icon-180.png">
+    <link rel="apple-touch-icon" href="assets/icons/Icon-180.png">
 </head>
 
 <body>
     <p>This site is PWA.</p>
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/service-worker.js')
+            navigator.serviceWorker.register('service-worker.js')
         }
     </script>
 </body>
