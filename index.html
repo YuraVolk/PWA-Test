@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="Description" content="This is my PWA Template.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#333">
+    <title>Document</title>
+    <link rel="manifest" href="manifest/manifest.json">
+    <link rel="apple-touch-icon" href="/assets/icons/Icon-180.png">
+</head>
+
+<body>
+    <p>This site is PWA.</p>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js')
+        }
+    </script>
+</body>
+
+</html>
