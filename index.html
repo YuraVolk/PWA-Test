@@ -16,9 +16,9 @@
 <body>
     <p>This site is PWA.</p>
     <script>
-        /*if (window.location.protocol === 'http:') {
+        if (window.location.protocol === 'http:') {
             window.location.protocol = 'https:';
-        }*/
+        }
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('service-worker.js')
         }
