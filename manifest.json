@@ -5,25 +5,55 @@
     "display": "standalone",
     "background_color": "#FEFEFE",
     "theme_color": "#333333",
-    "icons": [
-    {"src": "assets/icons/Icon-128.png",
-        "sizes": "128x128",
-        "type": "image/png"
-    }, {
-        "src": "assets/icons/Icon-152.png",
-        "sizes": "152x152",
-        "type": "image/png"
-    }, {
-        "src": "assets/icons/Icon-144.png",
-        "sizes": "144x144",
-        "type": "image/png"
-    }, {
-        "src": "assets/icons/Icon-196.png",
-        "sizes": "196x196",
-        "type": "image/png"
-    }, {
-        "src": "assets/icons/Icon-512.png",
-        "sizes": "512x512",
-        "type": "image/png"
-    }]
+    "icons": [{
+            "src": "assets/icons/Icon-32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/Icon-16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/Icon-80.png",
+            "sizes": "80x80",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/Icon-16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/Icon-16.png",
+            "sizes": "60x60",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/Icon-128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        }, {
+            "src": "assets/icons/Icon-152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        }, {
+            "src": "assets/icons/Icon-144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }, {
+            "src": "assets/icons/Icon-196.png",
+            "sizes": "196x196",
+            "type": "image/png"
+        }, {
+            "src": "assets/icons/Icon-167.png",
+            "sizes": "167x167",
+            "type": "image/png"
+        }, {
+            "src": "assets/icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
 }
