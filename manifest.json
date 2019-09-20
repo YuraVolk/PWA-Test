@@ -21,12 +21,12 @@
             "type": "image/png"
         },
         {
-            "src": "assets/icons/Icon-16.png",
-            "sizes": "16x16",
+            "src": "assets/icons/Icon-64.png",
+            "sizes": "64x64",
             "type": "image/png"
         },
         {
-            "src": "assets/icons/Icon-16.png",
+            "src": "assets/icons/Icon-60.png",
             "sizes": "60x60",
             "type": "image/png"
         },
