@@ -15,10 +15,17 @@
 <body>
     <p>This site is PWA.</p>
     <script>
+        navigator.serviceWorker.getRegistrations().then(
+          function(registrations) {
+            for(let registration of registrations) {
+                registration.unregister();
+            }
+        });
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('service-worker.js')
         }
     </script>
+
 </body>
 
 </html>
