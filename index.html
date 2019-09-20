@@ -19,7 +19,7 @@
         if (window.location.protocol === 'http:') {
             window.location.protocol = 'https:';
         }
-        console.log(window.innerWidth, window.outerWidth);
+        window.innerWidth = window.outerWidth;
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('service-worker.js')
         }
