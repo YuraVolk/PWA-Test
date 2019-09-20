@@ -15,6 +15,10 @@
 <body>
     <p>This site is PWA.</p>
     <script>
+        if (window.location.protocol === 'http:') {
+            window.location.protocol = 'https:';
+        }
+
         navigator.serviceWorker.getRegistrations().then(
           function(registrations) {
             for(let registration of registrations) {
